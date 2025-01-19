@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopping-card {
+  justify-content: space-between;
+  background-color: #61dafb;
+  padding: 20px 30px;
+}
+
+.product-item {
+  padding: 20px;
+}
+
+body{
+    overflow: auto;
+}
+
+.text img{
+        width: 100%; 
+        height: auto; 
+        object-fit: cover; 
+}
+
+.cart{
+     display:flex;
+     justify-content:end;
+     margin-top: -60px;
+     margin-right: 44px;
+}
+
+.car{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width:24px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.sec {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.sec h1 {
+    margin: 0;
+    margin-top: 80px; 
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+  gap: 20px; 
+  padding-right: 70px;
+  margin:30px;
+  margin-left: 110px;
+}
+
+.heading{
+    padding-left: 15px;
+}
+
+
+footer p{
+    font-size: 40px;
+    text-decoration: underline;
+    padding-left: 25px;
+}
+
+.icons{
+    padding-left: 23px;
+}
+
+h1{
+    font-size: 67px;
+}
+
+.text img{
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+}
+
+.navbar{
+  width:100%;
+  height:60px;
+  padding-top: 15px;
+  background-color:yellow;
+}
+
+.navbar2{
+  width:100%;
+  height:50px;
+  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
+  background-color: lightyellow;
+}
+
+.navbar a{
+  text-decoration: none;
+  color:black;
+  font-size: 24px;
+  font-family:'poppins';
+  display: inline;
+  margin-left: 74px;
+  margin-right: 60px;
+  border: none;
+  outline: none;
+}
+
+.navbar2 a{
+  text-decoration: none;
+  color:black;
+  font-size: 18px;
+  font-family:'poppins';
+  display: inline;
+  margin-right: 400px;
+  margin-left: 70px;
+  border: none;
+  outline: none;
+}
+
+.supp{          
+  background-color: salmon;
+  border-radius: 50%;
+}
+
+.navbar2 a:hover{
+  color:black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar a:hover{
+  color:black;
+  font-weight: bold;
+}
+
+.head{
+  font-size: 47px;
+}
+
+.inp{
+  width:220px;
+  height:35px;
+  border-radius: 5px;
+  margin-left: 1400px;
+  margin-top: 20px;
+  border-color: #ff4141;
+  outline: none;
+  color:#ff4141;
+}
+
+.inp:hover{
+  border-color: #d11010;
+}
+
+.navbar2{
+  padding-top: 14px;
+}
+
+.logindiv{
+  display:flex;
+  flex-direction: column;
+  margin-left: 1244px;
+  gap:45px;
+  margin-bottom: 44px;
+}
+
+.logindiv button{
+  width:130px;
+  height:40px;
+  outline:none;
+  border:1px solid #7a7a7a;
+  border-radius: 75px;
+  color:#515151;
+  font-size: 20px;
+  font-weight: 500;
+  background: white;
+  cursor:pointer;
+}
+
+.logindiv button:active{
+  background:#f3f3f3;
+}
+
+@media(max-width:1280px){
+  .navbar{
+    padding:12px 50px;
+    width:1280px;
+  }
+
+  .navbar a{
+    font-size: 15px;
+    margin-right:26px;
+    margin-left:0px;
+  }
+
+  .text img{
+    width:1280px;
+    object-fit: cover;
+  }
+
+  .logindiv{
+    gap:0;
+    margin-left: 473px;
+    
+  }
+
+  .logindiv button{
+    width:90px;
+    height:30px;
+  }
+}
+
+
+   
+
